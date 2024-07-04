@@ -1,9 +1,6 @@
-//
-//  MeetingView.swift
-//  ScrumdingerTest
-//
-//  Created by 김소연 on 6/23/24.
-//
+/*
+ See LICENSE folder for this sample’s licensing information.
+ */
 
 import SwiftUI
 
@@ -15,13 +12,13 @@ struct MeetingView: View {
                 VStack(alignment: .leading) {
                     Text("Seconds Elapsed")
                         .font(.caption)
-                    Label("300", systemImage: "hourglass.tophalf.filled")
+                    Label("300", systemImage: "hourglass.tophalf.fill")
                 }
                 Spacer()
                 VStack(alignment: .trailing) {
                     Text("Seconds Remaining")
                         .font(.caption)
-                    Label("600", systemImage: "hourglass.bottomhalf.filled")
+                    Label("600", systemImage: "hourglass.bottomhalf.fill")
                 }
             }
             .accessibilityElement(children: .ignore)
@@ -42,6 +39,8 @@ struct MeetingView: View {
     }
 }
 
-#Preview {
-    MeetingView()
+struct MeetingView_Previews: PreviewProvider {
+    static var previews: some View {
+        MeetingView()
+    }
 }
