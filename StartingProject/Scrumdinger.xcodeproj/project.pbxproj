@@ -28,6 +28,7 @@
 		D6CF8DE02C37847E00101EF0 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF8DDF2C37847E00101EF0 /* MeetingHeaderView.swift */; };
 		D6CF8DE22C3791BD00101EF0 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF8DE12C3791BD00101EF0 /* MeetingFooterView.swift */; };
 		D6CF8DE62C379C5600101EF0 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF8DE52C379C5600101EF0 /* NewScrumSheet.swift */; };
+		D6CF8DE82C37EA2C00101EF0 /* HistoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CF8DE72C37EA2C00101EF0 /* HistoryDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		D6CF8DDF2C37847E00101EF0 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		D6CF8DE12C3791BD00101EF0 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		D6CF8DE52C379C5600101EF0 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
+		D6CF8DE72C37EA2C00101EF0 /* HistoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				A9789BAF2947DF6300305A2F /* DailyScrum.swift */,
 				A93E3F3A294A6F4200B9708D /* ScrumTimer.swift */,
 				A9789BAD2947DE5100305A2F /* Theme.swift */,
+				D6CF8DE72C37EA2C00101EF0 /* HistoryDetailView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				A9789BB02947DF6300305A2F /* DailyScrum.swift in Sources */,
 				A93E3F39294A6F3400B9708D /* ScrumProgressViewStyle.swift in Sources */,
 				C76970A22948F9CA002748F5 /* DetailView.swift in Sources */,
+				D6CF8DE82C37EA2C00101EF0 /* HistoryDetailView.swift in Sources */,
 				C76970A629491AB2002748F5 /* DetailEditView.swift in Sources */,
 				D6CF8DE22C3791BD00101EF0 /* MeetingFooterView.swift in Sources */,
 				A9789BB52947E51500305A2F /* TrailingIconLabelStyle.swift in Sources */,

@@ -39,6 +39,8 @@ struct DetailView: View {
                     Label(attendee.name, systemImage: "person")
                 }
             }
+            Section(header: Text("History")) {
+            }
         }
         .navigationTitle(scrum.title)
         .toolbar {
